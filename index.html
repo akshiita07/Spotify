@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="sidebar">
+        <ul class="homesearchbar">
+            <li class="sidebar-items">
+                <a href="">
+                    <span><i class="fa-solid fa-house" style="color: #b3b3b3;"></i></span>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="sidebar-items"><a href=""><i class="fa-solid fa-magnifying-glass"
+                        style="color: #b3b3b3;"></i>Search</a></li>
+        </ul>
+
+
+        <ul>
+            <li class="sidebar-library"><a href="">
+                <span><i class="fa-solid fa-book-open" style="color: #b3b3b3;"></i></span>
+                <span>Your Library</span>
+            </a></li>
+        </ul>
+
+
+        <ul class="sidebar-buttons-class">
+            <buttons class="sidebar-buttons">Playlists</buttons>
+            <buttons class="sidebar-buttons">Artists</buttons>
+            <buttons class="sidebar-buttons">Albums</buttons>
+            <!-- <buttons class="sidebar-buttons">Podcasts</buttons> -->
+        </ul>
+
+        <ul class="search-tag">
+            <span>
+                <i class="fa-solid fa-magnifying-glass"
+                            style="color: #b3b3b3;"></i>
+
+            </span>
+            <select name="" id="">
+                <option value="rec" selected>Recents</option>
+            </select>
+        </ul>
+        <ul class="playlists">
+            <li class="your-playlists">TikTok vibes</li>
+            <li class="your-playlists">Soul</li>
+            <li class="your-playlists">Melting</li>
+            <li class="your-playlists">Best of BTS</li>
+            <li class="your-playlists">Punjabi Vibez</li>
+        </ul>
+
+        <div class="current-play">
+            <h4>Currently listening to: </h4>
+            <div>
+                <img src="" id="curr-cover" alt="">
+                <span id="curr-song">Play Something</span>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="main-body" >
+        <nav class="main-body-nav">
+                <div class="main-body-cover-image">
+                    <img src="logo.png" alt="Cover Image">
+                </div>
+                <div class="main-body-cover-text">
+                    <p>Playlist</p>
+                    <h1>SPOTIFY</h1>
+                    <p>Hot-Hits</p>
+                </div>
+          
+        </nav>
+        <div class="song-list">
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="1" class="fa-solid fa-play song-play-button"></i>
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="2" class="fa-solid fa-play song-play-button"></i>
+                
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="3" class="fa-solid fa-play song-play-button"></i>
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="4" class="fa-solid fa-play song-play-button"></i>
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="5" class="fa-solid fa-play song-play-button"></i>
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="6" class="fa-solid fa-play song-play-button"></i>
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="7" class="fa-solid fa-play song-play-button"></i>
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="8" class="fa-solid fa-play song-play-button"></i>
+            </div>
+            <div class="songs">
+                <img src="" alt="Cover-Image">
+                <span class="song-name">Song Name</span>
+                <span class="song-duration">02:30</span>
+                <i id="9" class="fa-solid fa-play song-play-button"></i>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bottom">
+        <div>
+
+            <i class="fa-solid fa-backward " id="previous"></i>
+            <i class="fa-solid fa-circle-play" id="play"></i>
+            <!-- <i class="fa-solid fa-circle-pause"></i> -->
+            <i class="fa-solid fa-forward " id="next" ></i>
+        </div>
+        <div class="gif-bar">
+            <img src="gif.gif" alt="GIF" id="gif">
+             <input type="range" name="rangebar" id="rangebar" min="0" value="0" max="100">
+        </div>
+    </footer>
+
+    <script src="spotify.js"></script>
+
+    <script src="https://kit.fontawesome.com/a65570bf17.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
